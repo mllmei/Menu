@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+li:hover{
+  border:1px solid black;
+  cursor:pointer;
+  
+
+}
+li{
+  text-align:left;
+  margin-left:100px;
+}
+.category{
+  text-align:left;
+  float:left;
+  width:30%
+}
+.item{
+  float:left;
+  text-align:left
+}
+h{text-align:left}
+table,th,td{
+  border:1px solid black;
+  border-collapse:collapse
+}
+tr:nth-child(even){
+  background-color:gray;
+
+}
+td,th{
+  text-align:left
+}
+table{
+  width:60%
+}
